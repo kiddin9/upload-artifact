@@ -13,7 +13,7 @@ export interface SearchResult {
 
 function getDefaultGlobOptions(): glob.GlobOptions {
   return {
-    followSymbolicLinks: true,
+    followSymbolicLinks: false,
     implicitDescendants: true,
     omitBrokenSymbolicLinks: true
   }
